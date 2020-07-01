@@ -9,7 +9,8 @@
 
 <h3>Sign Up Here</h3>
 
-<form action="#" method="post">
+<form action="/biodata" method="post">
+@csrf 
 	<label>First Name:</label><p>
 		<input type="text" name="first">
 		<p>
@@ -37,7 +38,7 @@
 
 	<label>Bio</label><p>
 		<textarea name="Bio"></textarea><p>
-	<button><a style="text-decoration:none; color: black;" href="/biodata"> Sign Up</a></button>
+	<button type="submit">Sign Up</button>
 </form>
 </body>
 </html>
